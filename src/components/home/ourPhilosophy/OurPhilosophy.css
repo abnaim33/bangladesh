@@ -1,0 +1,29 @@
+.philosophy_row {
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+    flex-direction: row;
+}
+
+.philosophy_header {
+    height: 20%;
+}
+
+.philosophy_div_left {
+    width: 55%;
+}
+
+.philosophy_div_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+@media(max-width:700px) {
+    .philosophy_row {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}

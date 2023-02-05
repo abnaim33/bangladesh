@@ -1,0 +1,18 @@
+.apartment_header{
+    height: 30%;
+}
+
+.apartment_body{
+    margin:auto;
+    height: 60%;
+}
+
+.card{
+    width: 31%;
+    height: 80%;
+}
+
+.btn{
+    background: rgb(0, 144, 72);
+    color:#fff;
+}

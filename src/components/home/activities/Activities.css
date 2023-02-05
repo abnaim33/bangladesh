@@ -1,0 +1,71 @@
+.activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding-top: 2rem;
+}
+
+.activity_row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    padding: 5rem 0;
+}
+
+.activity-card {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 2rem;
+
+}
+
+.activity-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.activity-card-body {
+    position: absolute;
+    top: 4rem;
+    color: white;
+    text-align: center;
+}
+
+.activity-card-title {
+    font-size: 2rem;
+}
+
+/* @media(max-width:700px){
+    .activities{
+        height: 800px;
+    }
+    .activities_header{
+        height: 10%;
+        margin-top: 2rem;
+    
+    }
+    .activity_row{
+        height: 80%;
+    }
+    .activities_div1{
+        width: 48%;
+        height: 48%;
+    }
+    .activities_div2{
+        width: 48%;
+        height: 48%;
+    }
+    .activities_div3{
+        width: 48%;
+        height: 48%;
+    }
+    .activities_div4{
+        width: 48%;
+        height: 48%;
+    }
+} */

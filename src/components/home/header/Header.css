@@ -1,0 +1,15 @@
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.nav-link{
+    font-weight: 700 !important;
+    font-size: 1.1rem;
+    margin-right: 2rem;
+    transition: .3s;
+    color:#fff !important;
+}
+.nav-link:hover{
+    border-bottom: 3px solid #000;
+}
